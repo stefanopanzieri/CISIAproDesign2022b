@@ -1,0 +1,92 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="794268092" file="/Users/stefanopanzieri/Il mio Drive/MATLAB/CISIApro2.0/CISIAproDesign.git-2022b/CISIAproMatDesign.prj" location="/Users/stefanopanzieri/Il mio Drive/MATLAB/CISIApro2.0/CISIAproDesign.git-2022b" name="CISIAproMatDesign" target="target.mlapps" target-name="Package App">
+    <param.appname>CISIAproMatDesign</param.appname>
+    <param.authnamewatermark>Stefano Panzieri</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>/private/var/folders/m3/cr6jpq2n5hx47xz6157c6mh80000gn/T/tp6f94d8a0_99ee_41cd_ba5e_0a285c4c7865.png</param.screenshot>
+    <param.version>3.7.6</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>8273e5f5-4f69-4753-93c4-d8cfb1c47813</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/CISIAproDesign.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/schema.mat</file>
+      <file>${PROJECT_ROOT}/sql_ini.m</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}/CISIAmat_screen.png</file>
+      <file>${PROJECT_ROOT}/CISIApro_v3.png</file>
+      <file>${PROJECT_ROOT}/CISIApro_v4.png</file>
+      <file>${PROJECT_ROOT}/MCIPlab.it.png</file>
+      <file>${PROJECT_ROOT}/black.png</file>
+      <file>${PROJECT_ROOT}/colors.png</file>
+      <file>${PROJECT_ROOT}/database-85.png</file>
+      <file>${PROJECT_ROOT}/entity_maker3.png</file>
+      <file>${PROJECT_ROOT}/icons8-aggiungi-database-64 (1).png</file>
+      <file>${PROJECT_ROOT}/icons8-aggiungi-database-64.png</file>
+      <file>${PROJECT_ROOT}/icons8-cerchio-di-transizione-64.png</file>
+      <file>${PROJECT_ROOT}/icons8-database-administrator-64.png</file>
+      <file>${PROJECT_ROOT}/icons8-esportazione-database-64.png</file>
+      <file>${PROJECT_ROOT}/icons8-flow-64 (1).png</file>
+      <file>${PROJECT_ROOT}/icons8-multicast-64.png</file>
+      <file>${PROJECT_ROOT}/layers_and_resources2.png</file>
+      <file>${PROJECT_ROOT}/left_arrow.png</file>
+      <file>${PROJECT_ROOT}/link_state2.png</file>
+      <file>${PROJECT_ROOT}/logo_def_blu-pc_3.jpg</file>
+      <file>${PROJECT_ROOT}/logo_on_black.png</file>
+      <file>${PROJECT_ROOT}/logorm3bianco copia.JPG</file>
+      <file>${PROJECT_ROOT}/logorm3bianco.JPG</file>
+      <file>${PROJECT_ROOT}/matlab3.PNG</file>
+      <file>${PROJECT_ROOT}/mysql-connector-java-8.0.17.jar</file>
+      <file>${PROJECT_ROOT}/right_arrow.png</file>
+      <file>${PROJECT_ROOT}/state_variables2.png</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/stefanopanzieri/Il mio Drive/MATLAB/CISIApro2.0" name="CISIAproDesign.git-2022b" optional="false">/Users/stefanopanzieri/Il mio Drive/MATLAB/CISIApro2.0/CISIAproDesign.git-2022b</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2022b.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>13.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
