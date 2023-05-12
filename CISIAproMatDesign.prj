@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="794268092" file="/Users/stefanopanzieri/Il mio Drive/MATLAB/CISIApro2.0/CISIAproDesign.git-2022b/CISIAproMatDesign.prj" location="/Users/stefanopanzieri/Il mio Drive/MATLAB/CISIApro2.0/CISIAproDesign.git-2022b" name="CISIAproMatDesign" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="1801981562" file="/Users/stefanopanzieri/Il mio Drive/MATLAB/CISIApro2.0/CISIAproDesign2022b.git/CISIAproMatDesign.prj" location="/Users/stefanopanzieri/Il mio Drive/MATLAB/CISIApro2.0/CISIAproDesign2022b.git" name="CISIAproMatDesign" target="target.mlapps" target-name="Package App">
     <param.appname>CISIAproMatDesign</param.appname>
     <param.authnamewatermark>Stefano Panzieri</param.authnamewatermark>
     <param.email />
@@ -8,8 +8,8 @@
     <param.icons />
     <param.summary />
     <param.description />
-    <param.screenshot>/private/var/folders/m3/cr6jpq2n5hx47xz6157c6mh80000gn/T/tp6f94d8a0_99ee_41cd_ba5e_0a285c4c7865.png</param.screenshot>
-    <param.version>3.7.6</param.version>
+    <param.screenshot>/private/var/folders/m3/cr6jpq2n5hx47xz6157c6mh80000gn/T/tpfc0f00af_be88_4415_bcd1_3f4d93dbcf90.png</param.screenshot>
+    <param.version>3.7.7</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -60,18 +60,26 @@
       <file>${PROJECT_ROOT}/logorm3bianco copia.JPG</file>
       <file>${PROJECT_ROOT}/logorm3bianco.JPG</file>
       <file>${PROJECT_ROOT}/matlab3.PNG</file>
+      <file>${PROJECT_ROOT}/mysql-connector-j-8.0.33.jar</file>
       <file>${PROJECT_ROOT}/mysql-connector-java-8.0.17.jar</file>
       <file>${PROJECT_ROOT}/right_arrow.png</file>
       <file>${PROJECT_ROOT}/state_variables2.png</file>
     </fileset.resources>
     <fileset.package />
     <build-deliverables>
-      <file location="/Users/stefanopanzieri/Il mio Drive/MATLAB/CISIApro2.0" name="CISIAproDesign.git-2022b" optional="false">/Users/stefanopanzieri/Il mio Drive/MATLAB/CISIApro2.0/CISIAproDesign.git-2022b</file>
+      <file location="/Users/stefanopanzieri/Il mio Drive/MATLAB/CISIApro2.0" name="CISIAproDesign2022b.git" optional="false">/Users/stefanopanzieri/Il mio Drive/MATLAB/CISIApro2.0/CISIAproDesign2022b.git</file>
     </build-deliverables>
     <workflow />
     <matlab>
       <root>/Applications/MATLAB_R2022b.app</root>
-      <toolboxes />
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
     </matlab>
     <platform>
       <unix>true</unix>
@@ -82,7 +90,7 @@
       <vista>false</vista>
       <linux>false</linux>
       <solaris>false</solaris>
-      <osver>13.2</osver>
+      <osver>13.2.1</osver>
       <os32>false</os32>
       <os64>true</os64>
       <arch>maci64</arch>
