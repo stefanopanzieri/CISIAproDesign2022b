@@ -1,15 +1,19 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3818780879" file="/Users/stefanopanzieri/Il mio Drive/MATLAB/CISIApro2.0/CISIAproDesign2022b.git/CISIAproMatDesign.prj" location="/Users/stefanopanzieri/Il mio Drive/MATLAB/CISIApro2.0/CISIAproDesign2022b.git" name="CISIAproMatDesign" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="3653156620" file="/Users/stefanopanzieri/Il mio Drive/MATLAB/CISIApro2.0/CISIAproDesign2022b.git/CISIAproMatDesign.prj" location="/Users/stefanopanzieri/Il mio Drive/MATLAB/CISIApro2.0/CISIAproDesign2022b.git" name="CISIAproMatDesign" target="target.mlapps" target-name="Package App">
     <param.appname>CISIAproMatDesign</param.appname>
     <param.authnamewatermark>Stefano Panzieri</param.authnamewatermark>
     <param.email />
     <param.company />
-    <param.icon />
-    <param.icons />
+    <param.icon>${PROJECT_ROOT}/CISIAproMatDesign_resources/icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/CISIAproMatDesign_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/CISIAproMatDesign_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/CISIAproMatDesign_resources/icon_16.png</file>
+    </param.icons>
     <param.summary />
     <param.description />
-    <param.screenshot>/private/var/folders/m3/cr6jpq2n5hx47xz6157c6mh80000gn/T/tpded078fc_ddfd_4554_8e23_41e4a46d5c52.png</param.screenshot>
-    <param.version>3.9.0</param.version>
+    <param.screenshot>/private/var/folders/m3/cr6jpq2n5hx47xz6157c6mh80000gn/T/tpc12a0a00_4398_4ffe_84cb_4f17c6bd9d1f.png</param.screenshot>
+    <param.version>3.9.1</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -19,8 +23,6 @@
     <unset>
       <param.email />
       <param.company />
-      <param.icon />
-      <param.icons />
       <param.summary />
       <param.description />
       <param.products.name />
